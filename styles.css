@@ -76,6 +76,7 @@ button:hover, button:active{
 	background-color: #fff;
 	border-radius: 5px;
 	width: 100px;
+	height: 100px;
 	border: 1px solid #e5e5e5;
 	text-align: center;
 	line-height: 2em;
@@ -130,7 +131,7 @@ button:hover, button:active{
 }
 .four-2, .five-2, .six-3{
 	top: 80%;
-	left: 80%;
+	left: 20%;
 }
 .two-2, .three-3, .four-4, .five-4, .six-6{
 	top: 80%;
@@ -145,19 +146,3 @@ button:hover, button:active{
 	left: 80%;
 }
 
-.dice-three{
-	position: absolute;
-	left:150px;
-}
-.dice-four{
-	position: absolute;
-	left:150px;
-}
-.dice-five{
-	position: absolute;
-	left:150px;
-}
-.dice-six{
-	position: absolute;
-	left:150px;
-}
