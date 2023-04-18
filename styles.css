@@ -14,7 +14,7 @@
 }
 h1 {
 	color: #20e1c1;
-	margin: 120px;
+	margin-top: 120px;
 	text-transform: uppercase;
 }
 button {
@@ -39,7 +39,6 @@ button:active {
 	transform: translateY(15px);
 }
 .game {
-	position: relative;
 	width: auto;
 	height: 100%;
 }
