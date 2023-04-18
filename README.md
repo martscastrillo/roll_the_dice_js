@@ -1,6 +1,6 @@
 # 🎲 🎲 roll-the-dice   
 
-this page is useful if you don't have a dice handy.
+This page is useful if you don't have a dice handy.
 
 This website is powered by vanilla JavaScript. I hope you like it.
 
