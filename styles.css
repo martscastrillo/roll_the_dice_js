@@ -1,10 +1,10 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Righteous', cursive;
+	font-family: "Righteous", cursive;
 }
-.body{
+.body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -12,12 +12,12 @@
 	height: 100vh;
 	background-color: #006453;
 }
-h1{
+h1 {
 	color: #20e1c1;
 	margin: 120px;
 	text-transform: uppercase;
 }
-button{
+button {
 	position: relative;
 	top: 80px;
 	left: 10px;
@@ -29,32 +29,33 @@ button{
 	border-radius: 20px;
 	box-shadow: 1px 3px #50521f;
 	outline: none;
-	transition: .3s;
+	transition: 0.3s;
 }
-button:hover, button:active{
+button:hover,
+button:active {
 	outline: none;
 	background-color: #50514f;
 	cursor: pointer;
 	transform: translateY(15px);
 }
-.game{
+.game {
 	position: relative;
 	width: auto;
 	height: 100%;
 }
-.container{
+.container {
 	position: relative;
 	display: inline-block;
 	top: 200px;
 }
-.dice{
+.dice {
 	position: relative;
 	width: 100px;
 	height: 100px;
 	transform-style: preserve-3d;
 	transition: transform 1s;
 }
-.dot{
+.dot {
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -63,15 +64,15 @@ button:hover, button:active{
 	background-color: #f25f5c;
 	box-shadow: inset 2px 2px #d90429;
 }
-.dice-one{
+.dice-one {
 	position: absolute;
-	left:150px;
+	left: 150px;
 }
-.dice-two{
+.dice-two {
 	position: absolute;
-	left:-50px;
+	left: -50px;
 }
-.side{
+.side {
 	position: absolute;
 	background-color: #fff;
 	border-radius: 5px;
@@ -81,68 +82,80 @@ button:hover, button:active{
 	text-align: center;
 	line-height: 2em;
 }
-.side:nth-child(1){
+.side:nth-child(1) {
 	transform: translateZ(3.1em);
 }
-.side:nth-child(6){
-	transform: translateY(90deg)translateZ(3.1em);
+.side:nth-child(6) {
+	transform: translateY(90deg) translateZ(3.1em);
 }
-.side:nth-child(3){
+.side:nth-child(3) {
 	transform: rotateY(-90deg) translateZ(3.1em);
 }
-.side:nth-child(4){
+.side:nth-child(4) {
 	transform: rotateX(90deg) translateZ(3.1em);
 }
-.side:nth-child(5){
+.side:nth-child(5) {
 	transform: rotateX(-90deg) translateZ(3.1em);
 }
-.side:nth-child(2){
+.side:nth-child(2) {
 	transform: rotateY(-180deg) translateZ(3.1em);
 }
-.show-1{
+.show-1 {
 	transform: rotateX(720deg) rotateZ(-720deg);
 }
-.show-6{
+.show-6 {
 	transform: rotateX(-900deg) rotateZ(1080deg);
 }
-.show-3{
+.show-3 {
 	transform: rotateY(-450deg) rotateZ(-1440deg);
 }
-.show-4{
+.show-4 {
 	transform: rotateY(810deg) rotateZ(720deg);
 }
-.show-5{
+.show-5 {
 	transform: rotateX(-810deg) rotateZ(-1080deg);
 }
-.show-2{
+.show-2 {
 	transform: rotateX(450deg) rotateZ(-720deg);
 }
-.two-1, .three-1, .four-1, .five-1, .six-1{
+.two-1,
+.three-1,
+.four-1,
+.five-1,
+.six-1 {
 	top: 20%;
 	left: 20%;
 }
-.four-3 .five-3, .six-4{
+.four-3 .five-3,
+.six-4 {
 	top: 20%;
 	left: 80%;
 }
-.one-1, .three-2, .five-5{
+.one-1,
+.three-2,
+.five-5 {
 	top: 50%;
 	left: 50%;
 }
-.four-2, .five-2, .six-3{
+.four-2,
+.five-2,
+.six-3 {
 	top: 80%;
 	left: 20%;
 }
-.two-2, .three-3, .four-4, .five-4, .six-6{
+.two-2,
+.three-3,
+.four-4,
+.five-4,
+.six-6 {
 	top: 80%;
 	left: 80%;
 }
-.six-2{
+.six-2 {
 	top: 50%;
 	left: 20%;
 }
-.six-5{
-	top:50%;
+.six-5 {
+	top: 50%;
 	left: 80%;
 }
-
